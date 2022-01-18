@@ -7,4 +7,6 @@ szavak = ['alma', 'barack', 'Attila', 'kávé', 'szekrény', 'asztal']
 
 
 szavak = ['alma', 'barack', 'Attila', 'kávé', 'szekrény', 'asztal']
-[print(szo) for szo in szavak if szo[0] in ("a","A")]
+as_szavak = [szo for szo in szavak if szo[0] in {"a","A"}]
+print(len(as_szavak))
+print(as_szavak)
